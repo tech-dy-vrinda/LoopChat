@@ -40,7 +40,7 @@ socket.on("receive-location",(data)=>{
     console.log("Location received from:", socket.id, data);
     map.setView([latitude, longitude],18);
 
-
+//demo 
 
 if(markers[id])
 {
